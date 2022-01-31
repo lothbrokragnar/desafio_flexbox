@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    height: auto;
+    padding: 0;
+}
+
+.main {
+    height: 100%;
+    width: 50%;
+    display: flex;
+}
+
+.main__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 30px;
+}
+
+
+
+.main__image-container:nth-child(-n+4){
+    flex-basis: 20%;
+}
+.main__image-container:nth-child(5){
+    flex-basis: 100%;
+    height: auto;
+}
+.main__image-container:nth-child(2n+6){
+    flex-basis: 20%;
+    height: 200px;
+}
+.main__image-container:nth-child(2n+7){
+    flex-basis: 20%;
+    height: 300px;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}

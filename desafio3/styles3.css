@@ -1,0 +1,38 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    border-bottom: solid gray 1px;
+}
+
+.navbar__container {
+    height: 50px;
+    display: flex;
+    padding: 10px 40px;
+    align-items: center;
+}
+
+.navbar__logo {
+    height: 80%;
+    cursor: pointer;
+}
+
+.navbar__list-container {
+    margin-left: auto;
+    width: 30%
+}
+
+.navbar__list {
+    list-style: none;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar__list-item {
+    font-family: 'Courier New', monospace;
+    font-weight: 700;
+    cursor: pointer;
+}

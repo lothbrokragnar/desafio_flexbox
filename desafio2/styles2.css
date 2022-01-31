@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
+input {
+    width: 50%;
+    height: 50px;
+    box-sizing: border-box;
+    padding: 1em;
+    box-sizing: border-box;
+}
+
+button {
+    height: 50px;
+    width: 100px;
+    border: none;
+    background-color: #64C3F9;
+    color: white;
+    font-family: Helvetica;
+}
